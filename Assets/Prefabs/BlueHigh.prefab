@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3604920485432597347
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3604920485432597358}
+  - component: {fileID: 3604920485432597357}
+  - component: {fileID: 3604920485432597356}
+  m_Layer: 0
+  m_Name: BlueHigh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3604920485432597358
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3604920485432597347}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3604920485432597357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3604920485432597347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f1ee5bf00f6689448756671194e04f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buildDelay: 0.25
+  buildingHeight: -1
+  stockHeight: 1
+  maxHeight: 30
+  minHeight: 6
+  stockPrefabs:
+  - {fileID: 2292952873101236479, guid: 68d2606887252c7458872ece80c22104, type: 3}
+  roofPrefabs:
+  - {fileID: 1538920821455698578, guid: a758a7a9fb5206f40aea9ed02ba639f7, type: 3}
+  neonPrefabs:
+  - {fileID: 5695631533853396178, guid: a67e88117eb66b446bf22b138338e437, type: 3}
+  - {fileID: 5695631533853396178, guid: 61481480f5bbb9f47a78b76976070a1d, type: 3}
+  maxNeonCount: 5
+--- !u!114 &3604920485432597356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3604920485432597347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c601806f2ae6db4b994fc92779c19fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BuildKey: 32
+  BuildOnStart: 0
